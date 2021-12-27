@@ -1,0 +1,50 @@
+body{
+  font-size: 1.8rem;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding:  0 40px;
+  background-color: #4C3F91;
+  color: white;
+}
+
+.container{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+.button{
+  height: 150px;
+  width: 150px;
+  margin: 25px;
+  border: 10px solid white;
+  border-radius: 30%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.green{
+  background-color: green;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.pressed{
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
